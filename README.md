@@ -48,8 +48,8 @@ Project Root/
 │   ├── data/                   
 │   ├── model.py                
 │   ├── prepro.py               
-│   ├── train-lr.py             
-│   ├── train.py                
+│   ├── train-scheduler.py             
+│   ├── train-original.py                
 │   ├── utils.py                
 │   └── Readme.txt              
 │
