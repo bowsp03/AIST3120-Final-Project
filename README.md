@@ -43,25 +43,24 @@ python train.py \
 
 Project Root/
 │
-├── LoRA/                       # LoRA-related files
-│   ├── __pycache__/            # Cache folder for Python bytecode
-│   ├── data/                   # Folder for storing data
-│   ├── model.py                # Python script for model definition
-│   ├── prepro.py               # Python script for preprocessing
-│   ├── train-lr-Copy1.py       # Python script (likely a copy of train-lr.py)
-│   ├── train-lr.py             # Python script for training with learning rate
-│   ├── train.py                # Python script for training
-│   ├── utils.py                # Python script for utility functions
-│   └── Readme.txt              # README file with project details
+├── LoRA/                       
+│   ├── __pycache__/            
+│   ├── data/                   
+│   ├── model.py                
+│   ├── prepro.py               
+│   ├── train-lr.py             
+│   ├── train.py                
+│   ├── utils.py                
+│   └── Readme.txt              
 │
-└── Scheduler/                  # Scheduler-related files
-    ├── __pycache__/            # (Assumed) Cache folder for Python bytecode
-    ├── scheduler.py            # (Assumed) Main script for scheduling training jobs
-    ├── config/                 # (Assumed) Folder for configuration files
-    │   ├── scheduler_config.yaml  # (Assumed) YAML file for scheduler settings
-    │   └── training_params.yaml   # (Assumed) YAML file for training parameters
-    ├── logs/                   # (Assumed) Folder for scheduler logs
-    │   ├── scheduler.log       # (Assumed) Log file for scheduler activity
-    │   └── error.log           # (Assumed) Log file for errors
-    ├── tasks.py                # (Assumed) Script defining scheduling tasks
-    └── utils.py                # (Assumed) Utility functions for the scheduler
+└── Scheduler/                  
+    ├── __pycache__/            
+    ├── scheduler.py            
+    ├── config/                 
+    │   ├── scheduler_config.yaml  
+    │   └── training_params.yaml   
+    ├── logs/                   
+    │   ├── scheduler.log       
+    │   └── error.log           
+    ├── tasks.py                
+    └── utils.py                
